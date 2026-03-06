@@ -16,8 +16,9 @@
 4. [Análisis Comparativo de Modelos](#análisis-comparativo-de-modelos)
 5. [Modelo Champion: XGBoost + RFECV](#modelo-champion-xgboost--rfecv)
 6. [Estrategias de Retención Propuestas](#estrategias-de-retención-propuestas)
-7. [Tecnologías y Dependencias](#tecnologías-y-dependencias)
-8. [Cómo Ejecutar el Proyecto](#cómo-ejecutar-el-proyecto)
+7. [Estructura del Proyecto](#estructura-del-proyecto)
+8. [Tecnologías y Dependencias](#tecnologías-y-dependencias)
+9. [Cómo Ejecutar el Proyecto](#cómo-ejecutar-el-proyecto)
 
 ---
 
@@ -57,16 +58,13 @@ Se evaluó el rendimiento de los algoritmos bajo tres condiciones: **sin sampleo
 
 ---
 
-### Optimización Champion: XGBoost + RFECV
+### Modelo Champion: XGBoost + RFECV
 
 Al ser seleccionado como el mejor modelo, se procedió a su optimización mediante **RFECV** (Eliminación Recursiva de Variables con Validación Cruzada), reduciendo el set de datos de 23 a **20 variables clave**.
 
-
-
 La comparación final sobre el **set de test (datos nunca vistos por el modelo)** confirmó la robustez de la optimización:
 
-![Gráfico: Comparación modelos XGBoost y XGBoost+RFECV mediante matriz de confusión](https://raw.githubusercontent.com/iesvs-campi/oracle-one-challenge-telecom-x-2/refs/heads/main/plot_final/comparacion_matriz_confusion_modelos_finales.png
-)
+![Gráfico: Comparación modelos XGBoost y XGBoost+RFECV mediante matriz de confusión](https://raw.githubusercontent.com/iesvs-campi/oracle-one-challenge-telecom-x-2/refs/heads/main/plot_final/comparacion_matriz_confusion_modelos_finales.png)
 
 | Métrica (Clase Churn) | XGBoost Original (23 Var) | XGBoost + RFECV (20 Var) |
 | :--- | :---: | :---: |
@@ -76,7 +74,6 @@ La comparación final sobre el **set de test (datos nunca vistos por el modelo)*
 | **Accuracy General** | 75% | 75% |
 
 **Conclusión del Modelado:** La aplicación de RFECV no solo simplificó el modelo eliminando 3 variables de ruido, sino que incrementó la capacidad de detección (Recall) y la precisión sobre datos reales, consolidándolo como una herramienta predictiva confiable para Telecom X.
-
 
 #### Variables más influyentes (Feature Importance):
 El modelo final reveló que los principales disparadores del abandono son factores contractuales y tecnológicos, mientras que la **antigüedad** resultó ser menos determinante de lo previsto inicialmente (6° lugar):
@@ -92,7 +89,7 @@ El modelo final reveló que los principales disparadores del abandono son factor
 Basándose en los hallazgos finales del modelo, se proponen:
 
 * **Incentivos de Permanencia:** Lanzar campañas para migrar clientes de contratos "Mes a mes" a contratos anuales mediante beneficios exclusivos.
-* **Programa de Bienvenida (Primeros 90 días):** Implementar un protocolo de seguimiento intensivo para nuevos clientes, asegurando que su experiencia inicial sea impecable.
+* **Programa de Bienvenida (Primeros 90 días):** Implementar un protocolo de seguimiento intensivo para nuevos clientes, asegurando que su experiencia técnica inicial sea impecable.
 * **Fortalecimiento del Ecosistema:** Promover la adopción de servicios como *Seguridad Online* y *Respaldo en la Nube* para aumentar el valor percibido.
 * **Automatización de Pagos:** Ofrecer incentivos para los clientes que activen el débito automático, reduciendo la fricción del pago manual.
 
