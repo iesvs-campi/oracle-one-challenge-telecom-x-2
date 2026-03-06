@@ -88,10 +88,10 @@ El modelo final reveló que los principales disparadores del abandono son factor
 
 Basándose en los hallazgos finales del modelo, se proponen:
 
-* **Incentivos de Permanencia:** Lanzar campañas para migrar clientes de contratos "Mes a mes" a contratos anuales mediante beneficios exclusivos.
-* **Programa de Bienvenida (Primeros 90 días):** Implementar un protocolo de seguimiento intensivo para nuevos clientes, asegurando que su experiencia técnica inicial sea impecable.
-* **Fortalecimiento del Ecosistema:** Promover la adopción de servicios como *Seguridad Online* y *Respaldo en la Nube* para aumentar el valor percibido.
-* **Automatización de Pagos:** Ofrecer incentivos para los clientes que activen el débito automático, reduciendo la fricción del pago manual.
+* **Plan de Migración Contractual:** Diseñar incentivos agresivos para trasladar a los clientes del contrato "Mes a mes" hacia modalidades de permanencia anual. Atacar este punto impactaría directamente sobre el factor de riesgo del 65%.
+* **Control de Calidad en Fibra Óptica:** Investigar la causa raíz de la insatisfacción en este segmento tecnológico para equilibrar la relación costo-beneficio percibida por el cliente.
+* **Fomento de la Automatización:** Implementar bonificaciones por la migración de pagos manuales (Cheque electrónico) hacia débito automático para reducir la fricción en el proceso de cobro.
+* **Fortalecimiento de Servicios de Valor Agregado:** Incentivar el uso de *Soporte Técnico* y *Seguridad Online*, ya que el modelo identifica que los clientes con estos servicios activos presentan una lealtad superior.
 
 ---
 ### Estructura del Proyecto
