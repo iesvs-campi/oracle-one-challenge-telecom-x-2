@@ -96,7 +96,7 @@ Basándose en los hallazgos finales del modelo, se proponen:
 ---
 ### Estructura del Proyecto
 
-* **`Challenge: Telecom X Parte 2.ipynb`**: Notebook principal con el flujo completo de Machine Learning, desde el balanceo de clases hasta la selección del modelo final.
+* **`Challenge_Telecom_X_Parte_2.ipynb`**: Notebook principal con el flujo completo de Machine Learning, desde el balanceo de clases hasta la selección del modelo final.
 * **`datos_tratados.csv`**: Dataset procesado utilizado para el entrenamiento y prueba de los modelos predictivos.
 * **`plot_final/`**: Carpeta que contiene la comparativa visual de las matrices de confusión de XGBoost (Original vs. RFECV) sobre los datos de test.
 * **`README.md`**: Documentación técnica detallada y resumen ejecutivo de los modelos.
@@ -121,6 +121,6 @@ Basándose en los hallazgos finales del modelo, se proponen:
    ```
 
 2. **Ejecución:**
-* Abre el archivo `Challenge: Telecom X Parte 2.ipynb` en **Google Colab** o **Jupyter Notebook**.
+* Abre el archivo `Challenge_Telecom_X_Parte_2.ipynb` en **Google Colab** o **Jupyter Notebook**.
 * Asegúrate de que el archivo `datos_tratados.csv` esté en la misma ruta que el notebook.
 * Ejecuta las celdas secuencialmente. El notebook está diseñado para realizar la comparativa automatizada de modelos y finalizar con la optimización mediante **RFECV**.
