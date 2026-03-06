@@ -65,6 +65,9 @@ Al ser seleccionado como el mejor modelo, se procedió a su optimización median
 
 La comparación final sobre el **set de test (datos nunca vistos por el modelo)** confirmó la robustez de la optimización:
 
+![Gráfico: Comparación modelos XGBoost y XGBoost+RFECV mediante matriz de confusión](https://raw.githubusercontent.com/iesvs-campi/oracle-one-challenge-telecom-x-2/refs/heads/main/plot_final/comparacion_matriz_confusion_modelos_finales.png
+)
+
 | Métrica (Clase Churn) | XGBoost Original (23 Var) | XGBoost + RFECV (20 Var) |
 | :--- | :---: | :---: |
 | **Recall (Detección de fugas)** | 78% | **79%** |
@@ -73,7 +76,6 @@ La comparación final sobre el **set de test (datos nunca vistos por el modelo)*
 | **Accuracy General** | 75% | 75% |
 
 **Conclusión del Modelado:** La aplicación de RFECV no solo simplificó el modelo eliminando 3 variables de ruido, sino que incrementó la capacidad de detección (Recall) y la precisión sobre datos reales, consolidándolo como una herramienta predictiva confiable para Telecom X.
-
 
 
 #### Variables más influyentes (Feature Importance):
